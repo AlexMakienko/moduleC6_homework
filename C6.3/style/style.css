@@ -1,0 +1,57 @@
+.wrap {
+    width: 1024px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(195, 195, 195);
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.btn {
+    width: 20%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px;
+    border-style: solid;
+    background-color: rgb(0, 60, 255);
+    color: rgb(238, 255, 1);
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn-text {
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.btn-icon {
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+.btn-icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-active {
+    display: flex;
+    align-items: center;
+}
